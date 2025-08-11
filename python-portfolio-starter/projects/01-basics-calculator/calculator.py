@@ -18,7 +18,7 @@ def calculate(a: float, b: float, op: str):
     raise ValueError("Unsupported operator")
 
 def main():
-    print("=== CLI Calculator ===")
+    print("=== Lokesh's Calculator ===")
     a = safe_float(input("Enter first number: ").strip())
     b = safe_float(input("Enter second number: ").strip())
     op = input("Choose operator (+ - * /): ").strip()
